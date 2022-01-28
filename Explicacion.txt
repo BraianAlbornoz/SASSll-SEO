@@ -1,0 +1,33 @@
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+
+Home/ “The official website for BTS."
+
+Miembros/"Los Miembros de BTS son RM, Jin, SUGA, j-hope, Jimin, V, and ..."
+
+Discografia/"Discografia BTS- 2 cool 4 skool - MAP OF THE SOUL : 7 - Butter - Young Forever..."
+
+Shop/"Compra merchandising y ropa exclusivos en la tienda oficial de BTS. Sudaderas con capucha, camisetas, vinilos, accesorios y más."
+
+Suscripcion/"Suscribete y se el fan numero 1 de BTS..."
+
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: 
+
+Home/ “BTS, bts, k-pop, banda, Music, Musica, BTS historia" 
+
+Miembros/"BTS, bts, k-pop, banda, Music, Musica, BTS Miembros,RM, Jin, SUGA, j-hope, Jimin, V,"
+
+Discografia/"BTS, bts, k-pop, banda, Music, Musica, BTS Discografia,Butter,BE,MAP OF THE SOUL"
+
+Shop/"BTS, bts, k-pop, banda,Hoodies, tees, vinyl, accessories,Sudadera,Capucha,accesorios,"
+
+Suscripcion/"BTS, bts, k-pop, banda,Suscribir,email,ser parte,follow,seguir"
+
+
+Encabezado: para el encabezado del h1 utilicé el texto.
+
+Home/ "Nuestra Historia"
+Miembros/ -------
+Discografia/ "Discografia"
+Shop/ "BUTTER MERCH"
+suscripcion/"Si quieres recibir mas noticias sobre BTS Susbribete"
