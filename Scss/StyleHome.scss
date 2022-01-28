@@ -1,0 +1,332 @@
+@import 'Var';
+@import 'Global';
+@import 'Header';
+
+/* Home */
+/* Portadas*/
+
+    .portada__container{
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:$colorPrincipal;
+        width: 100%;
+
+        img{
+            max-width: 65%;
+            height: auto;
+            border-radius: 15px;
+        }
+        
+    }
+/*FIN PORTADA*/
+
+/*Historia*/
+
+#historia{
+    background: $colorPrincipal  ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    background-image:linear-gradient($colorPrincipal  , $colorSecundario ) ;
+
+    .historia__titulo{
+        font-family: $tipografiaTitulo;
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    .historia__contenido{
+        width: 1080px;
+        margin: 20px;
+
+        p{
+            font-family: $tipografiaParrafo;
+            font-size: 25px;
+        }
+    }
+}
+
+/*FINHistoria*/
+
+/* Integrantes */
+
+#integrantes{
+    background-image: linear-gradient($colorSecundario , $colorPrincipal);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .integrantes__titulo{
+        font-family:$tipografiaTitulo;
+        padding: 50px 15px;
+        text-align: center;
+        font-size: 50px;
+        background-color: $colorSecundario ;
+    }
+
+    .integrantes__conteiner{
+        display: grid;
+        grid-template-rows: 500px  500px 500px ;
+        grid-template-columns:  500px  500px 500px;
+        text-align: center;
+        justify-content: space-around;
+        background-image:linear-gradient($colorSecundario 80%, $colorPrincipal) ;
+
+        div{
+            padding: 10px 0px;
+            margin-left: 10px;
+        }
+        .integrante__imagen{
+            &:hover{
+                transform: scale(1.2);
+            }
+            transition: cubic-bezier(0.07, 0, 0, 1.18) .3s;
+
+            &:Last-child{
+                grid-column: 1/4;
+            }
+            img{
+                width: 500px;
+            }
+        }
+    }
+    
+}
+/* FIN Integrantes */
+
+/* Footer */
+@mixin fot {
+    .footer__derechos{
+        text-align: center;
+        h5{
+            font-size: 20px;
+            padding: 40px 0;
+        }
+        p{
+            font-size: 20px;
+            width: 500px;
+        }
+    }
+
+    .footer__conteiner{
+        padding-right: 40px;
+        text-align: center;
+
+        .footer__redes{
+
+            p{
+                font-size: 30px;
+            }
+            
+        }
+    .footer__redes_iconos{
+        a{
+            display: block;
+            font-size: 30px;
+            text-decoration: none;
+            padding: 10px;
+            transition: cubic-bezier(0.07, 0, 0, 1.18) .3s;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        
+    }
+    }
+}
+#footer{
+    background: $colorPrincipal ; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    @include fot;
+    
+    
+}
+/* Fin Footer */
+/* Fin Home */
+
+/* Miembros html */
+.main{
+    background-image: linear-gradient(#FF7828 90%, #FFDC00);
+
+    .butter__naranja{
+        img{
+            width:100%;
+            margin-top: -30px;
+        }
+    }
+    /* Mixin */
+    @mixin bio__contenido {
+        font-size: 35px;
+        align-self: center;
+        padding-left: 80px;
+        font-family: 'Satisfy', cursive;
+        line-height: 90px;
+        text-decoration:none;
+        
+    }
+    
+    @for $i from 1 to 8 {
+        #bio-#{$i}{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            .row{
+                width: 100%;
+                .bio__contenido{
+                    @include bio__contenido;
+                }
+            }
+        }
+    }
+    /* Mixin */
+}
+/* Fin miembros html */
+
+/* Discografia */
+
+#main__discografia{
+    width: 100%;
+    background-color: #FFDC00;
+    .discografia__text{
+        text-align: center;
+        h4{
+            flex-wrap: wrap;
+            font-size: 60px;
+        }
+        p{
+            font-family: $tipografiaParrafo;
+            font-size: 20px;
+        }
+    }
+    .grid__container{
+        gap: 10px;
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns:  500px 500px 500px;
+        grid-template-rows:  500px 500px 500px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/* Fin discografia */
+/* SHOP */
+.smooth{
+    background-color: rgb(25, 102, 133);
+    margin-top: -2px;
+    img{
+        height: 90px;
+    }
+}
+#main__shop{
+    background-color: rgb(25, 102, 133);
+    .shop__portada{
+        background-color: rgb(25, 102, 133);
+        div{
+            padding:100px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            max-width: 65%;
+            height: auto;
+            border-radius: 15px;
+        }
+    }
+
+
+}
+.merch__img{
+    padding: 50px;
+    img{
+        border-radius: 20px;
+        box-shadow: 0 26px 24px -16px rgb(255, 251, 11);
+        transition: cubic-bezier(0.07, 0, 0, 1.18) .3s; 
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+.merch__letras{
+    color: yellow;
+    font-family: 'Satisfy', cursive;
+    p{
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+     }
+}
+ 
+
+.merch__titulo{
+    @extend .merch__letras;
+    background-color: rgb(25, 102, 133);
+    text-align: center;
+    font-size: 75px;
+    margin-top: 40px;
+}
+#footer-color{
+    background: $colorShop ; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+
+    @include fot;
+    
+}
+
+/* Fin shop */
+
+/* SUSCRIPCION */
+#main__suscripcion{
+    background: black;
+    .suscripcion__text{
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+        color: white;
+    }
+}
+.suscripcion{
+    text-align: center;
+    color: white;
+    div{
+        div{
+            .formulario__item{
+                padding: 10px;
+                margin: 5px;
+                font-size: 30px;
+                color: black;
+                font-family: 'Satisfy';
+            }
+        }
+    }
+}
+#footer_suscripcion--color{
+    background: black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @include fot;
+ 
+}
+/* FIN SUSCRIPCION */
+
+
+
+/* /* MEDIA HOME RESPONSIVE*/
+@import'Media';
+
+/* /* FIN MEDIA HOME RESPONSIVE*/

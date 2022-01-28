@@ -1,0 +1,206 @@
+/* Media Responsive Home */
+@media(min-width: 320px){
+    #historia{
+        .historia__titulo{
+            text-align: center ;
+        }
+        .historia__contenido{
+            p{
+                font-size: 19px;
+            }
+        }
+
+    }
+    #integrantes{
+        .integrantes__titulo{
+            font-size: 24px;
+        }
+        .integrantes__conteiner{
+            display:block;
+            .integrante__imagen{
+                div{
+                    a{
+                        img{
+                            width:300px;
+                        }
+                    }
+                    h4{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:730px){
+    #historia{
+        .historia__titulo{
+            text-align: center;
+        }
+        .historia__contenido{
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+    #integrante{
+        .integrantes__titulo{
+            font-size: 45px;
+        }
+        .integrantes__conteiner{
+            display:grid;
+            grid-template-rows: 200px 200px 200px   ;
+            grid-template-columns: 200px 200px   ;
+
+            .integrante__imagen{
+                div{
+                    a{
+                        img{
+                            width:200px;
+                        }
+                    }
+                    h4{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+    .fontsize1{
+        font-size: 27px;
+    }
+}
+@media (min-width:1440px){
+    .fontsize1{
+        font-size: 45px;
+    }
+
+    #historia{
+        .historia__contenido{
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+    #integrantes{
+        background-image: linear-gradient($colorSecundario , $colorPrincipal);
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .integrantes__titulo{
+            font-family: $tipografiaTitulo;
+            padding: 50px 15px;
+            text-align: center;
+            font-size: 50px;
+        }
+        .integrantes__conteiner{
+            display: grid;
+            grid-template-rows: 400px  400px 400px ;
+            grid-template-columns:  400px  400px 400px;
+            text-align: center;
+            justify-content: space-around;
+            .integrante__imagen{
+                &:last-child{
+                    grid-column: 1/4;
+                }
+                div{
+                    h4{
+                        font-size: 35px;
+                    }
+                    a{
+                        img{
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1330px){
+    #header{
+        .fontsize1{
+            font-size:28px ;
+        }
+    }
+}
+/* Fin Media Responsive Home */
+
+/* Media Responsive Discografia */
+@media (min-width: 320px){
+    #main__discografia{
+        .discografia__text{
+            h4{
+                flex-wrap: wrap;
+                font-size: 30px;
+                padding: 20px;
+            }
+            p{
+                font-size: 25px;
+                padding-top: 30px;
+            }
+        }
+        .grid__container{
+            display: grid;
+            grid-template-columns:  120px 120px ;
+            grid-template-rows:  120px 120px 120px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 730px){
+
+#main__discografia{
+    .grid__container{
+
+        display: grid;
+        grid-template-columns:  200px 200px 200px;
+        grid-template-rows:  200px 200px 200px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding: 70px;
+    
+    }
+}
+
+}
+@media (min-width: 1024px){
+    #main__discografia{
+        .discografia__text{
+            h4{
+                font-size: 50px;
+            }
+            p{
+                font-size: 35px;
+            }
+        }
+        .grid__container{
+    
+            display: grid;
+            grid-template-columns:  300px 300px 300px;
+            grid-template-rows:  300px 300px 300px;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+        
+        }
+    }
+}
+@media (min-width:1440px){
+    #main__discografia{
+        .grid__container{
+            
+            display: grid;
+            grid-template-columns:  450px 450px 450px;
+            grid-template-rows:  450px 450px 450px;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+        
+        }
+    }
+}
+/* Fin Media Responsive Discografia */
