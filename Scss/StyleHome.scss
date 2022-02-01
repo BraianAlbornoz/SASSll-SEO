@@ -152,7 +152,7 @@
 
 /* Miembros html */
 .main{
-    background-image: linear-gradient(#FF7828 90%, #FFDC00);
+    background-image: linear-gradient($colorSecundario 90%, $colorPrincipal);
 
     .butter__naranja{
         img{
@@ -165,7 +165,7 @@
         font-size: 35px;
         align-self: center;
         padding-left: 80px;
-        font-family: 'Satisfy', cursive;
+        font-family: $tipografiaTitulo;
         line-height: 90px;
         text-decoration:none;
         
@@ -192,7 +192,7 @@
 
 #main__discografia{
     width: 100%;
-    background-color: #FFDC00;
+    background-color: $colorPrincipal;
     .discografia__text{
         text-align: center;
         h4{
@@ -264,16 +264,16 @@
 /* Fin discografia */
 /* SHOP */
 .smooth{
-    background-color: rgb(25, 102, 133);
+    background-color:$colorShop;
     margin-top: -2px;
     img{
         height: 90px;
     }
 }
 #main__shop{
-    background-color: rgb(25, 102, 133);
+    background-color: $colorShop;
     .shop__portada{
-        background-color: rgb(25, 102, 133);
+        background-color: $colorShop;
         div{
             padding:100px;
             display:flex;
@@ -302,18 +302,18 @@
 }
 .merch__letras{
     color: yellow;
-    font-family: 'Satisfy', cursive;
+    font-family: $tipografiaTitulo;
     p{
         font-size: 30px;
         text-align: center;
-        font-family: 'Satisfy', cursive;
+        font-family: $tipografiaParrafo;
      }
 }
  
 
 .merch__titulo{
     @extend .merch__letras;
-    background-color: rgb(25, 102, 133);
+    background-color: $colorShop;
     text-align: center;
     font-size: 75px;
     margin-top: 40px;
@@ -336,7 +336,7 @@
     background: black;
     .suscripcion__text{
         text-align: center;
-        font-family: 'Satisfy', cursive;
+        font-family: $tipografiaTitulo;
         font-size: 35px;
         color: white;
     }

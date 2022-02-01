@@ -256,7 +256,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -284,7 +284,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -312,7 +312,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -340,7 +340,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -368,7 +368,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -396,7 +396,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -424,7 +424,7 @@ p {
       -ms-grid-row-align: center;
       align-self: center;
   padding-left: 80px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   line-height: 90px;
   text-decoration: none;
 }
@@ -582,13 +582,13 @@ p {
 
 .merch__letras, .merch__titulo {
   color: yellow;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 
 .merch__letras p, .merch__titulo p {
   font-size: 30px;
   text-align: center;
-  font-family: 'Satisfy', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 .merch__titulo {
@@ -655,7 +655,7 @@ p {
 
 #main__suscripcion .suscripcion__text {
   text-align: center;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 35px;
   color: white;
 }
