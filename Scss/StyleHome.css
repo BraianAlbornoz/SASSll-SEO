@@ -470,6 +470,7 @@ p {
 }
 
 #main__discografia .grid__container div img {
+  border-radius: 50px;
   -webkit-transition: cubic-bezier(0.07, 0, 0, 1.18) 0.3s;
   transition: cubic-bezier(0.07, 0, 0, 1.18) 0.3s;
 }

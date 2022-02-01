@@ -215,6 +215,7 @@
         justify-content: center;
         div{
             img{
+                border-radius: 50px;
                 &:hover{
                     transform: scale(1.2);
                 }
